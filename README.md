@@ -8,7 +8,7 @@ Use `./run.sh` (the same as `./run.sh localhost 443 'TLSv1 +TLSv1.1 +TLSv1.2'`) 
  * With supported protocols set to TLS v1.0, 1.1 and 1.2.
  * Create `truststore.jks` keystore with the self-signed certificate imported and trusted.
 
-Can be later used tested from java as:
+Can be later used/tested from java as:
 ```java
 (cat >client.java <<"EOF"
   public class client {
